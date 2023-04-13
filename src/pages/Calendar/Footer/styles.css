@@ -1,0 +1,33 @@
+
+
+:root {
+  --swiper-navigation-size: 22px
+}
+
+@media (max-width:1024px) {
+  .swiper-wrapper {
+    margin-bottom: 160px;
+    margin-right: 40px;
+    transform: translate3d(0px, 0px, 0px);
+  }
+ .swiper-slide {
+    height: 100%;
+    position: relative;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 22px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  visibility: hidden;
+
+}
+
+
